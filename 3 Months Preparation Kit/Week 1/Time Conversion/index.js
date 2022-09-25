@@ -5,7 +5,7 @@ function timeConversion(s) {
     let militaryTime = "";
     let array = s.split(":");
 
-    // Edge cases handle 12 AM conversion, 12 PM conversion, and military time conversion after noon. If no conversion is needed, "AM" is removed upon return.
+    // Edge cases handle 12 AM conversion, 12 PM conversion, and military time conversion after close of noon hour. If no conversion is needed, "AM" is removed upon return.
 
     if (array[0] == "12" && array[2].includes("AM")) {
 
