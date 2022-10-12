@@ -2,7 +2,7 @@ let string = "We promptly judged antique ivory buckles for the next prize";
 let alphabet = {};
 let letter = 97;
 
-// Constructs an object with each letter of the alphabet as keys (using ascii) to count number of occurrences.
+// Constructs an object with lowercase letters of the alphabet as keys (using ascii) to count number of occurrences.
 
 for (let i = 0; i < 26; i++) {
 
