@@ -22,7 +22,9 @@ function pickingNumbers(a) {
 
         }
 
-        // If the absolute difference between two numbers and reach is less than or equal to 1, we increment the subarray's length. If it exceeds 1, then we check to see if it is the longest and reset variables accordingly.
+        // If the absolute difference between two numbers and reach is less than or equal to 1, we increment the subarray's length. 
+
+        // If it exceeds 1, then we check to see if it is the longest and reset variables accordingly.
 
         if (a[i + 1] - a[i] <= 1 && reach <= 1) {
 
