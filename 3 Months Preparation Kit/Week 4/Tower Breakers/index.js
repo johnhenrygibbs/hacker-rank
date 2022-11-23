@@ -9,7 +9,7 @@ let m = 2;
 
 // If even, then player 2 wins. If odd, then player 1 wins.
 
-// The only edge case concerns starting a game with 1 tower of height 1, in which case player 1 would not be able to move and would lose before the game began.
+// The only edge case concerns starting a game with 1 tower of height 1, in which case player 1 would not be able to move and would lose immediately.
 
 function towerBreakers(n, m) {
 
