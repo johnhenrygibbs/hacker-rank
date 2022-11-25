@@ -34,7 +34,7 @@ function anagram(s) {
 
     // If no match is found, the changes variable is incremeneted.
 
-    // If a match is found, that number is removed from the second array to account for dupes.
+    // If a match is found, that number is removed from the second array to account for multiple occurrences.
 
     for (let i = 0; i < charNumbers1.length; i++) {
 
