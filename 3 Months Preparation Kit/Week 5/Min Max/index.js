@@ -3,16 +3,16 @@ let k = 2;
 
 function maxMin(k, arr) {
 
-    // Sort the initial array and create variables for min and max.
+    // Create variables for min and max and sort the initial array.
+
+    let min;
+    let max;
 
     arr.sort(function(a, b) {
 
         return a - b;
 
     });
-
-    let min;
-    let max;
 
     // Iterate through the initial array and push the difference between max and min values into an empty array.
 
