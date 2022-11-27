@@ -8,7 +8,7 @@ let n = 5;
 
 function minimumNumber(n, password) {
 
-    // Track unmet criteria count throughout by calling helper function to check the password against the character strings.
+    // Track unmet criteria count throughout by calling helper function to check the attempted password against the character strings.
 
     let unmetCriteria = 0;
 
