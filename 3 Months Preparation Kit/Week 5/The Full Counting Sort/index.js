@@ -12,7 +12,7 @@ function countSort(arr) {
 
     }
 
-    // Next we can sort the array based on the integer in the first half of each pairing.
+    // Next, we sort the array based on the integer in the first half of each pairing.
 
     arr.sort(function(a, b) {
 
