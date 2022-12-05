@@ -18,7 +18,7 @@ function sansaXor(arr) {
 
         // If odd, you only need to XOR the elements at odd indices, because even-indexed elements will result in zero.
 
-        for (let i = 2; i < arr.length; i += 2) {
+        for (let i = 0; i < arr.length; i += 2) {
 
             result = result ^ arr[i];
 
