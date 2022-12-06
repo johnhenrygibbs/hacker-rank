@@ -12,7 +12,7 @@ function fibonacciModified(t1, t2, n) {
 
     while (number <= n) {
 
-        // Cast firstUp and nextUp as big integers to accommodate for numbers exceeding the range of a 64-bit integer.
+        // Cast nextUp and result as big integers to accommodate for numbers exceeding the range of a 64-bit integer.
 
         result = firstUp + (nextUp * nextUp);
         firstUp = BigInt(nextUp);
