@@ -1,0 +1,5 @@
+Given three integers, t1, t2, and n, compute and print the nth term of a modified Fibonacci sequence.
+
+Note: The value of t[n] may far exceed the range of a 64-bit integer.
+
+Many submission languages have libraries that can handle such large results but, for those that don't (e.g., C++), you will need to compensate for the size of the result.
