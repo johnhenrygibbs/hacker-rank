@@ -4,7 +4,7 @@ Bob always plays first.
 
 In a single move, a player chooses the maximum element in the array. He removes it and all elements to its right.
 
-For example, if the starting array arr = [2, 3, 5, 4, 1], then it becomes arr' = [2, 3] after removing [5, 4, 1].
+For example, if the starting array is arr = [2, 3, 5, 4, 1], then it becomes arr' = [2, 3] after removing [5, 4, 1].
 
 The two players alternate turns.
 
