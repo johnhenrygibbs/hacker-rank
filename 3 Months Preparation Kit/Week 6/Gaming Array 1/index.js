@@ -28,7 +28,7 @@ function gamingArray(arr) {
 
     }
 
-    // If number of turns is even, then ANDY wins, else BOB wins. 
+    // If number of turns is even, then ANDY wins, else BOB wins.
 
     if (i % 2 === 0) {
 
