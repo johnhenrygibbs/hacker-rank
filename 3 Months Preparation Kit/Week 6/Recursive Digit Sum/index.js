@@ -3,30 +3,30 @@ let k = 4;
 
 function superDigit(n, k) {
 
-    let p = "";
+    // Split n into an array of elements.
 
-    for (let i = 0; i < k; i++) {
+    let arr = n.split("");
+    let p = 0;
 
-        p += n;
+    // Iterate through the the array once and create a variable p that considers multiples of k.
 
-    }
+    for (let i = 0; i < arr.length; i++) {
 
-    while (p.length !== 1) {
-
-        let superDigit = p.split("");
-        let number = 0;
-
-        for (let i = 0; i < superDigit.length; i++) {
-
-            number += Number(superDigit[i]);
-
-        }
-
-        p = String(number);
+        p += Number(arr[i] * k);
 
     }
 
-    return p;
+    // If p isn't 1 digit, recursively run the function again with p as a string and k as 1. Otherwise, return p.
+
+    if (p > 10) {
+
+        return superDigit(String(p), 1);
+
+    } else {
+
+        return p;
+
+    }
 
 }
 
