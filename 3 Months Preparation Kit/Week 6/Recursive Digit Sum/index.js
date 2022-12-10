@@ -8,7 +8,7 @@ function superDigit(n, k) {
     let arr = n.split("");
     let p = 0;
 
-    // Iterate through the the array once and create a variable p that considers multiples of k.
+    // Iterate through the the array once and increment a variable p that considers multiples of k.
 
     for (let i = 0; i < arr.length; i++) {
 
