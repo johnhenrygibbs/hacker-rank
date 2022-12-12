@@ -18,7 +18,7 @@ function counterGame(n) {
 
         // If n is a power of 2, then divide it by 2 and store the new value.
 
-        if (n % 2 === 0) {
+        if (isPowerOfTwo(n) === true) {
 
             n = n / 2;
 
@@ -48,10 +48,6 @@ function counterGame(n) {
 
 }
 
-console.log(counterGame(132));
-
-// Leaving this function in here for reference, even though it wasn't a factor of the final, optimized solution.
-
 function isPowerOfTwo(num) {
 
     if (num === 1) {
@@ -69,3 +65,5 @@ function isPowerOfTwo(num) {
     }
 
 }
+
+console.log(counterGame(132));
