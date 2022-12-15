@@ -43,9 +43,7 @@ function isValid(s) {
 
     }
 
-    console.log(log);
-
-    // Create a second object that will hold occurrences as keys and number of letters as values.
+    // Create a second object that will hold occurrences as keys and number of letters with that frequency as values.
 
     let frequency = {};
     let values = Object.values(log);
