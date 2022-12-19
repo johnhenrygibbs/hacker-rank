@@ -15,9 +15,7 @@ function climbingLeaderboard(ranked, player) {
 
         let playerScore = player[i];
 
-        // Iterate through the leaderboard back to front.
-
-        // Keeping track of lastIndex will allow the loop to cycle more efficiently.
+        // Iterate through the leaderboard back to front, keeping track of lastIndex to allow the loop to cycle more efficiently.
 
         for (let j = lastIndex; j >= 0; j--) {
 
