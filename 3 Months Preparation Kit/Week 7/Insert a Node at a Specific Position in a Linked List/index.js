@@ -4,7 +4,7 @@ function insertNodeAtPosition(head, data, position) {
     let count = 0;
     let temp = head;
 
-    // Begin by setting temp to head and incrementing its position along with the counter.
+    // Begin by setting temp to head and incrementing its position along with the counter while the count is less than the desired position.
 
     while (count < position - 1) {
 
