@@ -2,15 +2,15 @@ let s = "{{[[(())]]}}";
 
 function isBalanced(s) {
 
-    // Setting n to be equal to -1 ensures the while loop is executed at least once. It's then reassigned to the length of s for the conditional.
+    // Setting priorLength to be equal to -1 ensures the while loop is executed at least once. It's then reassigned to the length of s for the conditional.
 
-    let n = -1;
+    let priorLength = -1;
 
     // The while loop removes individual pairings of brackets until string is empty or no more can be removed.
 
-    while (s.length !== n) {
+    while (s.length !== priorLength) {
 
-        n = s.length;
+        priorLength = s.length;
         s = s.replace("()", "").replace("{}", "").replace("[]", "");
 
     }
