@@ -4,4 +4,4 @@ In each operation, select a pair of adjacent letters that match, and delete them
 
 Delete as many characters as possible using this method and return the resulting string.
 
-If the final string is empty, return Empty String
+If the final string is empty, return Empty String.

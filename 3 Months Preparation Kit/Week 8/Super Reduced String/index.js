@@ -12,7 +12,7 @@ function superReducedString(s) {
         let first = array[index];
         let second = array[index + 1];
 
-        // Compare two elements at a time. Splice them if they are equal and reset the index. Otherwise, increment the index.
+        // Compare two elements at a time and splice them if they are equal and reset the index. Otherwise, increment the index.
 
         if (first === second) {
 
