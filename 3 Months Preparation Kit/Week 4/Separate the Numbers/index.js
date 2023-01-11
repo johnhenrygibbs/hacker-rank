@@ -26,7 +26,7 @@ function separateNumbers(s) {
 
         }
 
-        // Compare the strings for equality and if there is a match print the first number in the sequence.
+        // Compare the strings for equality and print the first number in the sequence if there is a match.
 
         if (newString === s) {
 
