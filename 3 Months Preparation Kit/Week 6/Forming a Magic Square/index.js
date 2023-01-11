@@ -1,5 +1,7 @@
 let s = [
-    [5, 3, 4], [1, 5, 8], [6, 4, 2]
+    [5, 3, 4],
+    [1, 5, 8],
+    [6, 4, 2]
 ];
 
 // There are eight possible magic square iterations, so we need to begin by defining an array containing all eight to help us solve this problem.
@@ -12,14 +14,14 @@ let squares = [
     [[8, 3, 4], [1, 5, 9], [6, 7, 2]],
     [[4, 3, 8], [9, 5, 1], [2, 7, 6]],
     [[6, 7, 2], [1, 5, 9], [8, 3, 4]],
-    [[2, 7, 6], [9, 5, 1], [4, 3, 8]],
+    [[2, 7, 6], [9, 5, 1], [4, 3, 8]]
 ];
 
 function formingMagicSquare(s) {
 
     let lowestCost = Infinity;
 
-    // Using the helper function, iterate throught the array of magic squares and calculate each cost, saving the lowest with each iteration. 
+    // Using the helper function, iterate throught the array of magic squares and calculate each cost, saving the lowest with each iteration.
 
     for (let i = 0; i < squares.length; i++) {
 
