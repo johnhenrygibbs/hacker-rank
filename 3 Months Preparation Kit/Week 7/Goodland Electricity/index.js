@@ -5,4 +5,8 @@ function pylons(k, arr) {
 
     
 
+    return - 1;
+
 }
+
+console.log(pylons(k, arr));
