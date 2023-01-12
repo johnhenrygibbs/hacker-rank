@@ -18,7 +18,9 @@ function bigSorting(unsorted) {
 
         }
 
-    }); 
+    });
+
+    return unsorted; 
 
 }
 
