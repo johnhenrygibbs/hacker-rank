@@ -1,6 +1,6 @@
 let input = [8, '1 abc', '3 3', '2 3', '1 xy', '3 2', '4', '4', '3 1'];
 
-// By keeping a continuous array of the previous state of S, with an easy pop() command.
+// By keeping a continuous array of the previous state of S, with an easy pop() command you can undo (revert) to a prior state anytime.
 
 function processData(input) {
 
