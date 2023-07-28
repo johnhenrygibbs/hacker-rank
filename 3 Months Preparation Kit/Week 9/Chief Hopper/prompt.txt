@@ -1,0 +1,7 @@
+Chief's bot is playing an old DOS based game. There is a row of buildings of different heights arranged at each index along a number line. The bot starts at building 0 and at a height of 0. You must determine the minimum energy his bot needs at the start so that he can jump to the top of each building without his energy going below zero.
+
+Units of height relate directly to units of energy. The bot's energy level is calculated as follows:
+
+If the bot's botEnergy is less than the height of the building, his newEnergy = botEnergy - (height - botEnergy)
+
+If the bot's botEnergy is greater than the height of the building, his newEnergy = botEnergy + (botEnergy - height)
