@@ -34,7 +34,7 @@ function chiefHopper(arr) {
                 botEnergy += 1;
                 break;
 
-            // Once we reach the end of the for loop, we know we've successfully carried out all operations and found our min value.
+            // Once we reach the end of the for loop, we know newEnergy has never fallen below 0 and botEnergy's value is our min.
 
             } else if (i + 1 === arr.length) {
 
