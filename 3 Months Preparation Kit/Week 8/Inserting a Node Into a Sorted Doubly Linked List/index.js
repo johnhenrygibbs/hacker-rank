@@ -3,7 +3,7 @@ function sortedInsert(head, data) {
     let node = new DoublyLinkedListNode(data);
     let temp = head;
 
-    // While the value of temp node is less than the value of the input data progress temp node.
+    // While the value of temp node is less than the value of the input data, progress temp node.
 
     while (temp.data < data) {
 
