@@ -27,6 +27,7 @@ function sortedInsert(head, data) {
 
         temp.prev = node;
         node.next = temp;
+
         return node;
 
     // Second case handles insertions in the middle of the linked list.
@@ -50,6 +51,7 @@ function sortedInsert(head, data) {
 
         temp.next = node;
         node.prev = temp;
+        
         return head;
 
     }
